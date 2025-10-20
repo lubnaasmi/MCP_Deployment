@@ -1,0 +1,9 @@
+services:
+  rendering:
+    image: ghcr.io/yaonyan/gpt-vis-mcp:latest-http
+    container_name: chart-rendering-service
+    ports:
+      - "3000:3000"
+    environment:
+      - RENDERED_IMAGE_HOST_PATH=http://localhost:3000/charts
+    restart: unless-stopped
