@@ -19,7 +19,7 @@ A self-hosted chart generation system that enables AI assistants to create visua
 - ✅ Claude AI Desktop compatible
 - ✅ Privacy-focused architecture
 
-## 🏗️ Architecture## 
+## 🏗️ Architecture 
 ```
 ┌─────────────────────────────────────┐
 │   User / AI Assistant               │
@@ -87,7 +87,6 @@ Restart Claude Desktop.
 pip install mcp
 ```
 
-See [Python Examples](#python-integration) below.
 
 ### Step 3: Generate Charts!
 
@@ -250,14 +249,6 @@ Expected response:
 - ✅ Self-hosted rendering
 - ✅ Open-source components
 
-## 🎓 What I Learned
-
-- Model Context Protocol (MCP) architecture and implementation
-- Docker containerization and multi-service communication
-- Python async programming with MCP SDK
-- System architecture design for AI tool integration
-- Debugging multi-service deployments
-- REST API integration patterns
 
 ## 📚 Resources
 
@@ -266,11 +257,7 @@ Expected response:
 - [MCP Server Chart](https://github.com/antvis/mcp-server-chart)
 
 
-## ⭐ Acknowledgments
 
-- [Anthropic](https://www.anthropic.com/) for Claude and MCP
-- [AntV](https://github.com/antvis) for visualization libraries
-- Community contributors
 
 ---
 
