@@ -1,5 +1,5 @@
 
-# Local MCP Chart Generation System
+# Local MCP Chart Generation System - 
 
 > Privacy-first AI-powered chart visualization using Model Context Protocol and Docker
 
@@ -259,36 +259,12 @@ Expected response:
 - Debugging multi-service deployments
 - REST API integration patterns
 
-## 🐛 Troubleshooting
-
-**Chart not generating?**
-- Check Docker container is running: `docker ps`
-- Test rendering service: `curl http://localhost:3000/generate ...`
-- Verify MCP config file syntax
-- Restart Claude Desktop completely
-
-**Connection refused?**
-- Ensure port 3000 is not blocked
-- Check Docker Desktop is running
-- Verify firewall settings
-
-**Python import errors?**
-- Install MCP SDK: `pip install mcp`
-- Check Python version: `python --version` (needs 3.8+)
-
 ## 📚 Resources
 
 - [MCP Documentation](https://modelcontextprotocol.io/)
 - [AntV GPT-Vis](https://github.com/antvis/GPT-Vis)
 - [MCP Server Chart](https://github.com/antvis/mcp-server-chart)
 
-## 📄 License
-
-MIT License - feel free to use this project for learning or production!
-
-## 🤝 Contributing
-
-Found a bug or have a feature idea? Open an issue or submit a PR!
 
 ## ⭐ Acknowledgments
 
@@ -298,69 +274,4 @@ Found a bug or have a feature idea? Open an issue or submit a PR!
 
 ---
 
-**Built with ❤️ for privacy-focused AI visualization**
-```
 
----
-
-## Portfolio/LinkedIn Description
-
-### Short Version (LinkedIn Post):
-```
-🚀 Built a Local AI Chart Generation System
-
-Just deployed a privacy-first visualization pipeline using Model Context Protocol (MCP) and Docker!
-
-✅ 25+ chart types generated locally
-✅ Zero external API dependencies  
-✅ Sub-2 second generation time
-✅ Python & AI agent integration
-
-Tech stack: Docker, Python, MCP, Node.js, REST APIs
-
-The system enables AI assistants like Claude to create data visualizations without sending data to external services - perfect for sensitive data workflows.
-
-Learned a ton about MCP protocol, multi-service architecture, and async Python programming!
-
-GitHub: [your-repo-link]
-
-#AI #Docker #Python #DataVisualization #MCP #PrivacyFirst
-```
-
-### Portfolio Website Description:
-```
-Local MCP Chart Generation System
-
-A self-hosted chart visualization pipeline that enables AI assistants to generate 25+ chart types locally without external API dependencies.
-
-Challenge:
-Traditional AI-powered chart generation requires sending data to external APIs, raising privacy concerns for sensitive datasets.
-
-Solution:
-Built a containerized rendering service using Docker and integrated it with the Model Context Protocol (MCP) to enable local chart generation. The system supports both Claude AI Desktop and custom Python agents.
-
-Technical Implementation:
-- Deployed GPT-Vis-SSR rendering service in Docker container
-- Integrated MCP server with stdio protocol communication
-- Built Python client using async/await patterns
-- Configured multi-service architecture with HTTP APIs
-- Implemented 25+ chart types (pie, bar, line, scatter, etc.)
-
-Results:
-- 100% local processing - zero external API calls
-- Sub-2 second chart generation performance
-- Successfully integrated with Claude AI Desktop
-- Production-ready Python SDK for custom agents
-
-Technologies: Docker, Python, MCP, Node.js, REST APIs, AntV
-
-[View Code] [Live Demo] [Documentation]
-```
-
-### Resume Bullet Points:
-```
-- Built privacy-first AI chart generation system using Model Context Protocol and Docker, supporting 25+ visualization types with zero external API dependencies
-
-- Deployed containerized rendering service and integrated MCP server, achieving sub-2 second chart generation for AI assistants
-
-- Developed Python SDK client using async/await patterns, enabling custom AI agents to generate visualizations programmatically
