@@ -3,10 +3,6 @@
 
 > Privacy-first AI-powered chart visualization using Model Context Protocol and Docker
 
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
-[![Python](https://img.shields.io/badge/Python-3.8+-green)](https://www.python.org/)
-[![MCP](https://img.shields.io/badge/MCP-1.0-orange)](https://modelcontextprotocol.io/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ##  Overview
 
@@ -257,6 +253,10 @@ Expected response:
 - [MCP Server Chart](https://github.com/antvis/mcp-server-chart)
 
 
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
+[![Python](https://img.shields.io/badge/Python-3.8+-green)](https://www.python.org/)
+[![MCP](https://img.shields.io/badge/MCP-1.0-orange)](https://modelcontextprotocol.io/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 
 ---
