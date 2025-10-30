@@ -8,7 +8,7 @@
 [![MCP](https://img.shields.io/badge/MCP-1.0-orange)](https://modelcontextprotocol.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-## 🎯 Overview
+##  Overview
 
 A self-hosted chart generation system that enables AI assistants to create visualizations locally without external API dependencies. Built using the Model Context Protocol (MCP), Docker, and Python.
 
@@ -19,7 +19,7 @@ A self-hosted chart generation system that enables AI assistants to create visua
 - ✅ Claude AI Desktop compatible
 - ✅ Privacy-focused architecture
 
-## 🏗️ Architecture 
+##  Architecture 
 ```
 ┌─────────────────────────────────────┐
 │   User / AI Assistant               │
@@ -43,7 +43,7 @@ A self-hosted chart generation system that enables AI assistants to create visua
           Chart Image
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Docker Desktop installed
@@ -97,7 +97,7 @@ Or use Python:
 python examples/generate_chart.py
 ```
 
-## 🐍 Python Integration
+##  Python Integration
 
 ### Installation
 ```bash
@@ -140,7 +140,7 @@ async def generate_chart():
 asyncio.run(generate_chart())
 ```
 
-## 📊 Supported Chart Types
+##  Supported Chart Types
 
 | Chart Type | Description | Use Case |
 |------------|-------------|----------|
@@ -158,7 +158,7 @@ asyncio.run(generate_chart())
 
 Full list: area, bar, boxplot, column, dual-axes, fishbone, flow, funnel, histogram, line, liquid, mind-map, network, organization, pie, radar, sankey, scatter, treemap, venn, violin, word-cloud
 
-## 📁 Project Structure
+##  Project Structure
 ```
 mcp-chart-system/
 ├── README.md
@@ -202,7 +202,7 @@ services:
       - RENDERED_IMAGE_HOST_PATH=http://localhost:3000/charts
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Test Rendering Service
 ```bash
@@ -225,7 +225,7 @@ Expected response:
 }
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Containerization:** Docker
 - **MCP Server:** @antv/mcp-server-chart (Node.js)
@@ -241,7 +241,7 @@ Expected response:
 - **Concurrent Requests:** Supports multiple simultaneous generations
 - **Output Format:** PNG images
 
-## 🔒 Privacy & Security
+##  Privacy & Security
 
 - ✅ 100% local processing
 - ✅ No external API calls
@@ -250,7 +250,7 @@ Expected response:
 - ✅ Open-source components
 
 
-## 📚 Resources
+##  Resources
 
 - [MCP Documentation](https://modelcontextprotocol.io/)
 - [AntV GPT-Vis](https://github.com/antvis/GPT-Vis)
